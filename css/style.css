@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: "Montserrat", "Ysabeau Infant", sans-serif; */
 }
 
 .secao-banner {
@@ -52,21 +51,6 @@
     background: linear-gradient(90deg, #ffdf00, #009c3b);
 }
 
-/* utilizando o before não precisaria utilizar a div .borda-perfil
-
-.secao-banner .perfil::before {
-    content:"";
-    width: 215px;
-    height: 215px;
-    position: absolute;
-    background: linear-gradient(90deg, #ffdf00, #009c3b);
-    border-radius: 100%;
-    z-index: -1;
-}
-
-
-*/
-
 .secao-banner .titulo h1 {
     color: white;
     font-size: 50px;
@@ -104,7 +88,7 @@
 
 .secao-banner .links a {
     width: 40%;
-    min-width: 330px;
+    min-width: 400px;
     margin: 0 auto;
     padding: 8px 0;
     text-decoration: none;
@@ -214,10 +198,4 @@ table tr:nth-of-type(odd) {
 
 table tr td {
     padding: 20px;
-}
-
-@media screen and (max-width: 840px) {
-    table .media-1 {
-        display: none;
-    }
 }
